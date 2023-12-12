@@ -1,0 +1,103 @@
+nav a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    float: right;
+    border: white;
+}
+nav{
+    background-color: black;
+    overflow:hidden;
+}
+
+nav a:hover{ 
+    color:fuchsia;
+}
+nav a:visited{
+color:aqua;
+}
+h1{
+    color: black;
+    font-size: 45px;
+    font-style: inherit;
+    text-align: center;
+    text-decoration-color: darkmagenta;
+    background-color:goldenrod;
+}
+p{
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float:inline-start;
+    margin: 10px;
+    font-style: normal;
+
+}
+ nav a[href]{
+    font-size: 20px;
+}
+
+l{
+    color:coral;
+    text-shadow: 2px 2px white;
+}
+.container{
+    display: flex;
+
+}
+.card{
+    height:500px;
+    margin:50px;
+    box-shadow:5px 5px 20px black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+
+    }
+
+.img{
+    border-radius:5px;
+}
+.intro{
+    height:70px;
+    width:325px;
+    padding:10px;
+    box-sizing:border-box;
+    position:absolute;
+    background:grey;
+    color:goldenrod;
+    overflow: visible;
+    bottom:250px;
+}
+.h2{
+    margin:10px;
+    font-size:40 px;
+}
+span{
+    font-weight:bold;
+}
+.card:hover{
+    cursor:pointer;
+}
+p{
+    visibility:hidden;
+    opacity:0;
+    color
+}
+.card:hover.intro{
+    height:220px;
+    bottom:250px;
+    background:grey;
+
+}
+.card:hover p{
+    opacity:1;
+    visibility:visible;
+    background-color: white;
+}
+h2{background-color: grey;}
+

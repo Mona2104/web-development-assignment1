@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        .box{
+            display:grid;
+            grid-template-columns: 50% 50%;
+        }
+        .c{
+            display: grid;
+            grid-template-columns: 10% 10% 10% 10% ;
+            grid-gap: 20px;
+
+        }
+        .logo{
+            height: 55px;
+            width:55px;
+            border-radius: 5px;
+            
+        }
+        .a,.b{
+            display:grid;
+            grid-template-columns: 10% 70%;
+        }
+        #email,#phone,#insta,#linkedin,#twitter,#fb{
+            height: 55px;
+            width:55px;
+        }
+        #emailid,#phoneno{
+            height:55px;
+            width:auto;
+            border-radius: 5px;
+        }
+        h1{
+            color:gold;
+            font-style: inherit;
+            font-size:  80px;
+        }
+        #CV{
+            background-color: blueviolet;
+            border: 5px;
+            border-color: black;
+            border-radius: 5px;
+            height: 40px;
+            width: 100px;
+            text-align: justify;
+            align-items: center;
+            padding-top: 15px;
+
+        }
+        #contact{
+
+        height:400px;
+        width:200px;
+        align-items: center;
+        margin:20px;
+        padding:100px;
+        
+        
+      }
+      #link{background-color: blueviolet;}
+     *{background-color: grey;}
+     #CV:hover{
+        cursor:pointer;
+     }
+        
+
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        <div class="items"><h1 id="contact">Contact Me</h1></div>
+        <div class="items">
+            <div class="a">
+             <img id="email" src="img/email.png" alt="email"> 
+             <p id="emailid">pranjalinm21@gmail.com</p>
+        </div>
+        <div class="items">
+            <div class="b">
+            <img id="phone" src="img/phone.jpg" alt="phone">
+             <p id="phoneno">8319739202</p>
+                
+        </div>
+        <div class="items">
+            <div class="c">
+                <a href="#"><img id="fb" class="logo" src="img/fb.png" alt="facebook.com"></a>
+                <a href="#"><img  id="twitter" class="logo" src="img/twitter.png" alt=""></a>
+                <a href="https://www.instagram.com/pranjali_mane21/"><img id="insta" class="logo" src="img/insta.jpg" alt="instagram.com"></a>
+                <a href="https://www.linkedin.com/in/pranjali-mane-2b1b61290/"><img id="linkedin" class="logo" src="img/linkedin.png" alt="linkedin"></a>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="items" id="CV">
+            <a  id="link" href="https://www.linkedin.com/in/pranjali-mane-2b1b61290/">Download CV</a>
+           
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <div class="items">
+            <input type="text" value="Your Name">
+        </div>
+        <br>
+        <br>
+        <div class="items">
+            <input type="email" value="Your Email">
+        </div>
+        <br>
+        <br>
+        <div class="items">
+            <textarea name="Yor message" id="txt" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <br>
+        <div class="items">
+            <input type="submit" value="submit">
+        </div>
+     </div>   
+        
+        
+    
+</body>
+</html>
